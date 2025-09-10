@@ -1,0 +1,67 @@
+#choose{
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.choose-menyu{
+ text-align: center;
+}
+.choose-cards{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+    gap: 100px;
+    padding-top: 62px;
+    padding-bottom: 60px;
+}
+
+.choose-menyu h1{
+    font-family: Sharp Sans No1;
+        font-weight: 770;
+        font-size: 54px;
+        leading-trim: NONE;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;color: #151414;
+}
+.choose-menyu p , .choose-cards p{
+    font-family: Sharp Sans No1;
+        font-weight: 750;
+        font-size: 24px;
+        leading-trim: NONE;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        color: #3B433E;
+}
+.choose-cards h1{
+    font-family: Sharp Sans No1;
+        font-weight: 770;
+        font-size: 28px;
+        leading-trim: NONE;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        padding-top: 36px;
+}
+.choose-cards img{
+    max-width: 100px;
+margin-left: 85px;
+}
+@media (max-width:722px){
+    .choose-cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .choose-menyu h1{
+        font-size: 32px;
+        align-items: center;
+    }
+}
+@media (max-width:474px){
+    .choose-cards {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+}

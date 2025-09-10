@@ -1,0 +1,86 @@
+.dishes-cards{
+    display: flex;
+    align-items: center;
+    gap: 83px;
+    padding-top: 60px;
+}
+.dishes-card{
+    text-align: center;
+    padding-top: 140px;
+    padding-bottom: 60px;
+    box-shadow: 10px 20px 70px 0px #47444414;
+    
+        box-shadow: -15px -50px 81px 0px #FFFFFF;
+}
+.dishes-card img{
+    max-width: 250px;
+}
+.dish-card:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 20px 70px 0px #47444414;
+    
+        box-shadow: -15px -50px 81px 0px #FFFFFF;
+}
+.dish-card{
+    max-width:  356px;
+        height: 520px;
+        angle: 0 deg;
+        opacity: 1;
+        top: 4048px;
+        left: 135px;
+        border-radius: 20px;
+        border-width: 1px;
+        border: 1px solid #EBEBEB;
+        padding-top: 50px;
+   
+}
+.dishes-card h2{
+    font-family: Sharp Sans No1;
+        font-weight: 770px;
+        font-size: 30px;
+        leading-trim: NONE;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+}
+.dishes-card p{
+    font-family: Sharp Sans No1;
+        font-weight: 750px;
+        font-size: 18px;
+        leading-trim: NONE;
+        line-height: 28px;
+        letter-spacing: 0%;
+        text-align: center;
+       color: #39463F;
+}
+.dishes-card button{
+   margin-top: 76px;
+    width: 210px;
+        height: 64px;
+        border-radius: 50px;
+    background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+         color: white;
+}
+.dishes-btn:hover{
+    background-color: #39463F;
+}
+@media (max-width:722px) {
+    .dishes-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dishes-card h1 {
+        font-size: 32px;
+        align-items: center;
+    }
+}
+
+@media (max-width:474px) {
+    .dishes-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
