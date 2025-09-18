@@ -13,7 +13,7 @@
 }
 .food-img{
     max-width: 750px;
-    padding-right: 20px;
+   
 }
 .food-card h1{
     font-family: Sharp Sans No1;
@@ -54,6 +54,13 @@
         align-items: center;
 
     }
+}
+        @media (max-width:1340px) {
+            .food-cards {
+                flex-wrap: wrap;
+                align-items: center;
+    
+            }
     .food-img img{
         width: 100%;
         padding-top: 30px;
